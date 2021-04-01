@@ -1,0 +1,6 @@
+import java.awt.*;
+import java.applets.*;
+class event1extends applet implements ActionerListner
+{
+    
+}
