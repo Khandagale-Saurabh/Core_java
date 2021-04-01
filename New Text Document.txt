@@ -1,0 +1,3 @@
+<applet code="sai3" width=400 height=500>
+<param="Param1" value="Saibaba">
+</applet>
