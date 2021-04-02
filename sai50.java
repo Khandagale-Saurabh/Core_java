@@ -1,25 +1,18 @@
-import java.awt.event.*;
-import java.awt.*;
-import java.applet.*;
-public class sai50 extends Applet implements KeyListener
+import java.util.*;
+class sai50
 {
-	TextArea p1=new TextArea();
-    public void init()
-    {
-		 addKeyListener(this);
-		add(p1);
-    }
-    public void keyPressed(KeyEvent e)
-    {
-       System.out.println("Inside pressed");
-    }
+	public static void main(String []aa)
+	{
+   ArrayList a =new ArrayList(5);
 
-            public void keyTyped(KeyEvent e)
-            {
-               System.out.println("innnn");
-    }
-        public void keyReleased(KeyEvent e)
-        {
-           System.out.println("Inside reles");
-    }
+   a.add(10);
+   a.add(2);
+   //a.add("Saurabh");
+   //Collections.sort(a,Collections.reverseOrder());
+   //Collection.reverse(a);
+   System.out.println(""+a.Collections.reverseOrder());
+
+
+
+   }
 }

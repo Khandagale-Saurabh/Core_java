@@ -1,15 +1,44 @@
-import java.awt.*;
-import java.applet.*;
-public class sai51 extends Applet
+import java.util.*;
+class emp
 {
-	public void init()
-	{
-		setBackground(Color.red);
+
+  String name;
+  int age;
+  double salary;
+  emp(String n,int ag,double sa)
+  {
+    name=n;
+    age=ag;
+    salary=sa;
+  }
+}
+class comp implements Comparator<emp>
+{
+    public int compare(emp e1,emp e2)
+    {
+       if(e1.age==e2.age)
+       {
+           return 1;
+       }
+       else
+       {
+		   return 0;
+		   }
+
+    }
+}
+class sai51
+{
+	public static void main(String ap[]){
+   ArrayList=new ArrayList();
+
+   n.add(new emp("Saurabh",11,22.2));
+    n.add(new emp("Burabh",22,21.2));
+    //Collections.sort(n,new comp());
+    for(emp e:n)
+    {
+		   System.out.print(" "+e.age);
 		}
-   public void paint(Graphics g)
-   {
-       g.drawLine (222,104,220,104);
-       g.drawRect(10,20,30,10);
-       g.fillRect(10,20,30,10);
+
    }
 }
