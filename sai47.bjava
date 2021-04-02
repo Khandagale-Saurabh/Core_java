@@ -1,0 +1,24 @@
+class p
+{
+  public static ptr(String a)
+  {
+      System.out.print(""+a);
+  }
+  
+    public static ln(String a)
+    {
+        System.out.println(""+a);
+  }
+}
+class sai47b
+{
+   public static void main(String args[])
+   {
+       BufferedReader br=new BufferReader(new FileReader("temp.txt"));
+       String s;
+       while((s=br.readLine())!=null)
+       {
+           
+       }
+   }
+ }  
