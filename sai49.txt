@@ -1,0 +1,31 @@
+class gen2<T,V>
+{
+    T t;
+    V v;
+     gen(T t,V v)
+     {
+        this.t=t;
+        this.v=v;
+     }
+     T get()
+     {
+        return t;
+     }
+     V getV()
+     {
+         return v;
+     }
+  
+  public void display()
+  {
+     p.ptr("OBJ1 :"+t +"OBJ2 :"+v);   
+  }
+}
+class sai49
+{
+    public static void main(String aaaaa[])
+      {
+                 gen2<Integer,String> g1=new gen2<>(20,"Saurabh");
+                 g1.display();
+      }
+}

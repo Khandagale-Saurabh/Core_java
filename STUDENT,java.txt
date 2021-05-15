@@ -1,0 +1,9 @@
+interface test
+{
+
+}
+class student
+{
+   String name;
+   int roll;
+}
